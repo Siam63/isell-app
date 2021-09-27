@@ -1,0 +1,107 @@
+.header{
+    background-color: #E08F43;
+    display: flex;
+    padding-left: 20px;
+    height: 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-container{
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    margin-left: 500px;
+    justify-content: center;
+    text-align: center;
+}
+
+.post-btn{
+    height: 30px;
+    width: 120px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.getpost-btn{
+    height: 30px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.signin-btn{
+    height: 30px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.signup-btn{
+    height: 30px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.post-item-title-container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 28%;
+}
+
+.post-item-desc-container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 28%;
+    height: 100px;
+}
+
+.post-item-condition-container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 28%;
+}
+
+.post-item-price-container{
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+    margin-left: 28%;
+}
+
+.post-item-title{
+    margin-bottom: 3px;
+}
+
+.post-item-description{
+    margin-bottom: 3px;
+}
+
+.post-item-condition{
+    margin-bottom: 3px;
+}
+
+.post-item-price{
+    margin-bottom: 3px;
+}
+
