@@ -1,0 +1,68 @@
+.header{
+    background-color: #E08F43;
+    display: flex;
+    padding-left: 20px;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    margin: -10px;
+}
+
+.header-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-container{
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    margin-left: 500px;
+    justify-content: center;
+    text-align: center;
+}
+
+.post-btn{
+    height: 30px;
+    width: 120px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.getpost-btn{
+    height: 30px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.signin-btn{
+    height: 30px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.signup-btn{
+    height: 30px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}

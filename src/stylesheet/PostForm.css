@@ -1,0 +1,44 @@
+.post-item-title-container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 28%;
+}
+
+.post-item-desc-container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 28%;
+    height: 100px;
+}
+
+.post-item-condition-container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 28%;
+}
+
+.post-item-price-container{
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+    margin-left: 28%;
+}
+
+.post-item-title{
+    margin-bottom: 3px;
+}
+
+.post-item-description{
+    margin-bottom: 3px;
+}
+
+.post-item-condition{
+    margin-bottom: 3px;
+}
+
+.post-item-price{
+    margin-bottom: 3px;
+}
