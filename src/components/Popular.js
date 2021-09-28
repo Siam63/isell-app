@@ -1,6 +1,5 @@
 import React from 'react';
 import '../stylesheet/Main.css'
-import Trending from '../components/Trending';
 
 function Popular() {
     return (
@@ -25,6 +24,27 @@ function Popular() {
             <div>
                 <input class="main-searchbar" placeholder="Search For Something..."></input>
             </div>
+
+            <div className="trending">
+            <div>
+                <h2 className="trending-title">What's Trending?</h2>
+            </div>
+            <div className="trending-image-container">                
+                <div>
+                    <h3 className="trending-footer-image"></h3>
+                    <h3>Business / Work</h3>
+                </div>
+                <div>
+                    <h3 className="trending-footer-image"></h3>
+                    <h3>Toys, Games & Hobbies</h3>
+                </div>
+                <div>
+                    <h3 className="trending-footer-image"></h3>
+                    <h3>Sport Goods</h3>
+                </div>
+            </div>
+        </div>
+
         </div>
     )
 }

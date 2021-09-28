@@ -9,7 +9,7 @@ function Signup() {
                 <input class="signup-input" placeholder="Password"></input>
                 <input class="signup-input" placeholder="Retype Password"></input>
                 <div>
-                    <button className="signin-button">Sign Up</button>
+                    <button className="signup-button">Sign Up</button>
                 </div>
                 <div>
                     <h3 className="have-account-link">Already have an account?</h3>

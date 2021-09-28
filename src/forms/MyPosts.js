@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function MyPosts() {
     return (
@@ -8,4 +8,4 @@ function MyPosts() {
     )
 }
 
-export default MyPosts
+export default MyPosts;

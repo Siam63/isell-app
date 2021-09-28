@@ -7,8 +7,9 @@ function Signin() {
             <div className="signin-container">
                 <input class="signin-input" placeholder="Username / Email"></input>
                 <input class="signin-input" placeholder="Password"></input>
-                <div>
-                    <button className="signin-button">Sign In</button>
+                <div className="btn-container">
+                    <button className="button">Sign In</button>
+                    <button className="button">Sign Up</button>
                 </div>
                 <div>
                     <h3 className="forgot-password-link">Forgot Password?</h3>

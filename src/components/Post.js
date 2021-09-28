@@ -5,9 +5,7 @@ import React from 'react';
 function Post() {
     return (
         <div>
-            {/* This is a comment */}
-            {/* <PostImages/>
-            <PostForm/> */}
+            {/* Every post will be its own post service card */}
         </div>
     )
 }

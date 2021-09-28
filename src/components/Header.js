@@ -1,17 +1,30 @@
 import React from 'react';
-import '../stylesheet/Header.css'
+import '../stylesheet/Header.css';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 function Header() {
     return (
-        <div className="header">
-            <h1 className="header-title">iSell</h1>
-            <div className="btn-container">
-                <button className="post-btn">Post an Item</button>
-                <button className="getpost-btn">My Posts</button>
-                <button className="signin-btn">Sign In</button>
-                <button className="signup-btn">Sign Up</button>
+        <Router>
+            <div className="header">
+                <div>
+                    <h1 className="header-title">iSell</h1>
+                </div>
+                <div className="header-btn-container">
+                    <div>
+                        <button className="header-btn">Post an Item</button>
+                    </div>
+                    <div>
+                        <button className="header-btn">My Posts</button>
+                    </div>              
+                    <div>
+                        <button className="header-btn">Sign In</button>
+                    </div>
+                    <div>
+                        <button className="header-btn">Sign Up</button>
+                    </div>
+                </div>
             </div>
-        </div>
+        </Router>
     )
 }
 

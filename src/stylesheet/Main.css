@@ -9,7 +9,7 @@
     margin-top: 50px;
     margin-bottom: 40px;
     margin-left: 50px;
-    color: #898888;
+    color: #545454;
     justify-content: left;
 }
 
@@ -19,6 +19,8 @@
 }
 
 .main-popular-heading{
+    background-color: rgb(61, 174, 211);
+    color: white;
     display: flex;
     padding: 10px;
     margin: 10px;
@@ -42,4 +44,44 @@
     border-radius: 20px;
     font-size: 22px;
     width: 50%;
+}
+
+.trending-image-container{
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #BDE9F6;
+    height: 400px;
+    width: 100%;
+}
+
+.trending-footer-image{
+    display: flex;
+    margin: 20px;
+    margin-top: 75px;
+    justify-content: center;
+    height: 200px;
+    width: 250px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+}
+
+.trending-footer-image:hover{
+    cursor: pointer;
+    background-color: rgb(228, 228, 228);
+}
+
+.trending-title{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+.header-button{
+    font-size: 16px;
 }
