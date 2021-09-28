@@ -23,7 +23,7 @@ function PostForm() {
             </div>
             <div className="post-item-price-container">
                 <h3 className="post-item-price">Price</h3>
-                <input placeholder="$0"></input>
+                <input placeholder="$0.00"></input>
             </div>
         </div>
     )

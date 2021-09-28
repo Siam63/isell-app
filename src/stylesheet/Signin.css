@@ -1,0 +1,21 @@
+.signin{
+    display: flex;
+    justify-content: center;
+}
+
+.signin-input{
+    display: flex;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.signin-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signin-button{
+    display: flex;
+    margin: 10px;
+}
